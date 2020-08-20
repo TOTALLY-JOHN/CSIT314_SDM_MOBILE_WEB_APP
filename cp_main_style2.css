@@ -1,0 +1,1208 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 370px) and (orientation: portrait) { /*mobile view iPhone SE */
+  .outer {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.outer div {
+    width: 100%;
+    background-color: #eee;
+    float: none;
+    height: 100%;
+    margin: 0 0.25%;
+    display: inline-block;
+    zoom: 1;
+}
+
+  img.icons {
+    margin-top: 10%;
+    width: 30%;
+    height: 30%;
+  }
+  button {
+    height: 100px;
+    width: 200px;
+  }
+  
+  button.btn {
+    font-size: 200%;
+  }
+
+  div.page {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 6;
+    padding: 0% 0.1%;
+    display: flex;
+    
+    font-size: 15px;
+
+  }
+
+  #bigBox1 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  #bigBox2 {
+        font-size: 100%;
+  }
+    
+  #bigBox2 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 100%;
+  }
+
+  #bigBox3 {
+        font-size: 100%;
+  }
+    
+  #bigBox3 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      
+      font-size: 100%;
+  }
+    
+    input[type=text],[type=email],[type=tel],[type=password]:enabled { /* css psuedo class 3 */
+      font-family: sans-serif;
+      font-style: italic;
+    }
+
+    #dateBox input[name=dateName] {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    option {
+      width: 100%;
+      margin: 8px 0;
+      font-size: 70%;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #11939a;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+    }
+
+}
+
+@media only screen and (min-width: 371px) and (orientation: portrait) { /*mobile view pixel and above */ 
+  .outer {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+ 
+
+
+  img.icons {
+    margin-top: 10%;
+    width: 35%;
+    height: 35%;
+  }
+  button {
+    height: 100px;
+    width: 200px;
+  }
+  
+  button.btn {
+    font-size: 200%;
+  }
+
+  div.page {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 6;
+    padding: 0% 0.1%;
+    display: flex;
+    
+    font-size: 15px;
+
+  }
+
+
+    #bigBox1 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  #bigBox2 {
+        font-size: 100%;
+  }
+    
+  #bigBox2 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 100%;
+  }
+
+  #bigBox3 {
+        font-size: 100%;
+  }
+    
+  #bigBox3 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      
+      font-size: 100%;
+  }
+    
+    input[type=text],[type=email],[type=tel],[type=password]:enabled { /* css psuedo class 3 */
+      font-family: sans-serif;
+      font-style: italic;
+    }
+
+    #dateBox input[name=dateName] {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    option {
+      width: 100%;
+      margin: 8px 0;
+      font-size: 70%;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #11939a;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape) { /*mobile view*/
+  
+  img.icons {
+    margin-top: 10%;
+    width: 15%;
+    height: 15%;
+  }
+  button {
+    height: 50px;
+    width: 100px;
+  }
+  
+  button.btn {
+    font-size: 60%;
+  }
+
+  div.page {
+    margin-top: 10%;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-column-end: span 5;
+  padding: 0% 0.1%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+
+  }
+
+  #bigBox1 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  #bigBox2 {
+        font-size: 100%;
+  }
+    
+  #bigBox2 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 100%;
+  }
+
+  #bigBox3 {
+        font-size: 100%;
+  }
+    
+  #bigBox3 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      
+      font-size: 100%;
+  }
+    
+    input[type=text],[type=email],[type=tel],[type=password]:enabled { /* css psuedo class 3 */
+      font-family: sans-serif;
+      font-style: italic;
+    }
+
+    #dateBox input[name=dateName] {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    option {
+      width: 100%;
+      margin: 8px 0;
+      font-size: 70%;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #11939a;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (orientation: landscape) { /*mobile view*/
+  img.icons {
+    margin-top: 10%;
+    width: 15%;
+    height: 15%;
+  }
+  button {
+    height: 50px;
+    width: 100px;
+  }
+  
+  button.btn {
+    font-size: 60%;
+  }
+
+  div.page {
+    margin-top: 10%;
+    margin-left: 27%;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 6;
+    padding: 0% 0.1%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+  #bigBox1 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  #bigBox2 {
+        font-size: 100%;
+  }
+    
+  #bigBox2 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 100%;
+  }
+
+  #bigBox3 {
+        font-size: 100%;
+  }
+    
+  #bigBox3 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      
+      font-size: 100%;
+  }
+    
+    input[type=text],[type=email],[type=tel],[type=password]:enabled { /* css psuedo class 3 */
+      font-family: sans-serif;
+      font-style: italic;
+    }
+
+    #dateBox input[name=dateName] {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    option {
+      width: 100%;
+      margin: 8px 0;
+      font-size: 70%;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #11939a;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (orientation: portrait) { /*mobile view*/
+  img.icons {
+    margin-top: 10%;
+    width: 25%;
+    height: 25%;
+  }
+  button {
+    height: 50px;
+    width: 100px;
+  }
+  
+  button.btn {
+    font-size: 60%;
+  }
+
+  div.page {
+    margin-top: 10%;
+    margin-left: 30%;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 6;
+    padding: 0% 0.1%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+  #bigBox1 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  #bigBox2 {
+        font-size: 100%;
+  }
+    
+  #bigBox2 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 100%;
+  }
+
+  #bigBox3 {
+        font-size: 100%;
+  }
+    
+  #bigBox3 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      
+      font-size: 100%;
+  }
+    
+    input[type=text],[type=email],[type=tel],[type=password]:enabled { /* css psuedo class 3 */
+      font-family: sans-serif;
+      font-style: italic;
+    }
+
+    #dateBox input[name=dateName] {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    option {
+      width: 100%;
+      margin: 8px 0;
+      font-size: 70%;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #11939a;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (orientation: landscape) { /*mobile view*/
+  img.icons {
+    margin-top: 10%;
+    width: 20%;
+    height: 20%;
+  }
+  button {
+    height: 50px;
+    width: 100px;
+  }
+  
+  button.btn {
+    font-size: 60%;
+  }
+
+  div.page {
+    margin-top: 10%;
+    margin-left: 33%;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 6;
+    padding: 0% 0.1%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+  #bigBox1 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  #bigBox2 {
+        font-size: 100%;
+  }
+    
+  #bigBox2 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 100%;
+  }
+
+  #bigBox3 {
+        font-size: 100%;
+  }
+    
+  #bigBox3 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      
+      font-size: 100%;
+  }
+    
+    input[type=text],[type=email],[type=tel],[type=password]:enabled { /* css psuedo class 3 */
+      font-family: sans-serif;
+      font-style: italic;
+    }
+
+    #dateBox input[name=dateName] {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    option {
+      width: 100%;
+      margin: 8px 0;
+      font-size: 70%;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #11939a;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+    }
+
+}
+
+@media only screen and (min-width: 1000px) and (orientation: portrait) { /*mobile view*/
+  img.icons {
+    margin-top: 10%;
+    width: 25%;
+    height: 25%;
+  }
+  button {
+    height: 50px;
+    width: 100px;
+  }
+  
+  button.btn {
+    font-size: 60%;
+  }
+
+  div.page {
+    margin-top: 10%;
+    margin-left: 33%;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 6;
+    padding: 0% 0.1%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+  #bigBox1 {
+        font-size: 100%;
+  }
+    
+  #bigBox1 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  #bigBox2 {
+        font-size: 100%;
+  }
+    
+  #bigBox2 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 100%;
+  }
+
+  #bigBox3 {
+        font-size: 100%;
+  }
+    
+  #bigBox3 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      
+      font-size: 100%;
+  }
+    
+    input[type=text],[type=email],[type=tel],[type=password]:enabled { /* css psuedo class 3 */
+      font-family: sans-serif;
+      font-style: italic;
+    }
+
+    #dateBox input[name=dateName] {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    option {
+      width: 100%;
+      margin: 8px 0;
+      font-size: 70%;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #11939a;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+    }
+
+}
+
+@media only screen and (min-width: 800px) and (orientation: landscape) { /*desktop view*/
+  .outer {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.outer div {
+    width: 100%;
+    background-color: #eee;
+    float: none;
+    height: 100%;
+    margin: 0 0.25%;
+    display: inline-block;
+    zoom: 1;
+}
+
+  img.icons {
+    margin-top: 10%;
+    width: 30%;
+    height: 30%;
+  }
+  button {
+    height: 100px;
+    width: 200px;
+  }
+  
+  button.btn {
+    font-size: 200%;
+  }
+
+  div.page {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 6;
+    padding: 0% 0.1%;
+    display: flex;
+    
+    font-size: 15px;
+
+  }
+
+  #bigBox1 {
+        font-size: 200%;
+  }
+    
+  #bigBox1 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  #bigBox2 {
+        font-size: 200%;
+  }
+    
+  #bigBox2 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  #bigBox3 {
+        font-size: 200%;
+  }
+    
+  #bigBox3 input[type=text], [type=number], [type=email],[type=tel],[type=password] { /* CSS BOX MODEL*/
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+    
+    input[type=text],[type=email],[type=tel],[type=password]:enabled { /* css psuedo class 3 */
+      font-family: sans-serif;
+      font-style: italic;
+    }
+
+    #dateBox input[name=dateName] {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 2px;
+      margin: 8px 0;
+      display: inline-block;
+      min-width: 48.8%;
+      border: 1px;
+      border-radius: 10px;
+      font-size: 90%;
+    }
+
+    option {
+      width: 100%;
+      margin: 8px 0;
+      font-size: 70%;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #11939a;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+    }
+
+}
+
+
+html, body {
+  height: auto;
+  width: auto;
+  color: #1a1b1c;
+  
+  background-size: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.floating { /* this is used for the logout button */
+      position:fixed; /*position property2*/
+      right: 0;
+      bottom: 0;
+      width: 1%;
+      margin-right:17%;
+      margin-bottom: 2%;
+      text-align: left;
+      text-shadow: 2px #1f1f1f
+      font-size: 100%;
+      
+}
+
+div.floating2 {
+  position: fixed;
+  right: 1;
+  margin-top: 5%;
+  width: 1%;
+  margin-left:5%;
+  text-align: center;
+  text-shadow: 2px #1f1f1f
+}
+
+label, a { /* css for the nav and texts */
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  transition: border 0.2s;
+  border-bottom: 5px solid rgba(63, 70, 82, 0.2);
+  padding: 3px 2px;
+  font-size: 85%;
+}
+
+label:hover, a:hover {
+  border-bottom-color: #3f4652;
+}
+
+.layout {  /* This is to size and design the nav bar tabs */
+  display: grid;
+  height: 70%;
+  width: 100%;
+  overflow: hidden;
+  grid-template-rows: 11% 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label.nav {
+  width: auto;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-bottom: 1% solid #3f4652;
+  background: #ecf0f1;
+  user-select: none;
+  transition: background 0.4s, padding-left 0.2s;
+  padding-left: 0;
+  text-align: center;
+}
+input[type="radio"]:checked + .page + label.nav { /* colouring of the nav bar tabs */
+  background: linear-gradient(to bottom, #ecf0f1 , #08313a);
+  color: #ffffff;
+  padding-left: 1%;
+}
+input[type="radio"]:checked + .page + label.nav span { /* icon in the nav positioning when it appears. */
+  padding-left: 1%;
+}
+/*input[type="radio"]:checked + .page + label.nav img { /* icon in the nav visibility when switching
+  opacity: 1;
+}*/
+label.nav span { /* icon in the nav */
+  padding-left: 0%;
+  position: relative;
+}
+/*label.nav img { /* icon in the nav sizing 
+  left: 0;
+  top: -3px;
+  position: absolute;
+  width: 21px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}*/
+
+
+
+.page-contents > * {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.page-contents {
+  display: inline-block;
+}
+
+.page-contents > *:nth-child(1) {
+  transition-delay: 0.2s;
+}
+.page-contents > *:nth-child(2) {
+  transition-delay: 0.21s;
+}
+.page-contents > *:nth-child(3) {
+  transition-delay: 0.22s;
+}
+.page-contents > *:nth-child(4) {
+  transition-delay: 0.23s;
+}
+.page-contents > *:nth-child(5) {
+  transition-delay: 0.24s;
+}
+.page-contents > *:nth-child(6) {
+  transition-delay: 0.25s;
+}
+.page-contents > *:nth-child(7) {
+  transition-delay: 0.26s;
+}
+.page-contents > *:nth-child(8) {
+  transition-delay: 0.27s;
+}
+.page-contents > *:nth-child(9) {
+  transition-delay: 0.28s;
+}
+.page-contents > *:nth-child(10) {
+  transition-delay: 0.29s;
+}
+.page-contents > *:nth-child(11) {
+  transition-delay: 0.30s;
+}
+.page-contents > *:nth-child(12) {
+  transition-delay: 0.31s;
+}
+.page-contents > *:nth-child(13) {
+  transition-delay: 0.32s;
+}
+.page-contents > *:nth-child(14) {
+  transition-delay: 0.33s;
+}
+.page-contents > *:nth-child(15) {
+  transition-delay: 0.34s;
+}
+.page-contents > *:nth-child(16) {
+  transition-delay: 0.35s;
+}
+.page-contents > *:nth-child(17) {
+  transition-delay: 0.36s;
+}
+.page-contents > *:nth-child(18) {
+  transition-delay: 0.37s;
+}
+.page-contents > *:nth-child(19) {
+  transition-delay: 0.38s;
+}
+.page-contents > *:nth-child(20) {
+  transition-delay: 0.39s;
+}
+.page-contents > *:nth-child(21) {
+  transition-delay: 0.40s;
+}
+.page-contents > *:nth-child(22) {
+  transition-delay: 0.41s;
+}
+.page-contents > *:nth-child(23) {
+  transition-delay: 0.42s;
+}
+
+input[type="radio"] + .page {
+  transition: transform 0.2s;
+  transform: translateX(150%);
+}
+
+input[type="radio"]:checked + .page  {
+  transform: translateX(0%);
+}
+input[type="radio"]:checked + .page .page-contents > * {
+  opacity: 1;
+  transform: translateY(0%);
+  transform: translateX(0%);
+}
+
+input[class=delete] {
+      width: 100%;
+      background-color: #991A00;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+    }
+input[class=search] {
+      width: 100%;
+      background-color: #368BC1;
+      color: white;
+      padding: 5% 5%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center; 
+}

@@ -1,0 +1,104 @@
+@media only screen and (min-width: 300px) and (orientation: portrait) { /*mobile view*/
+  .formBox{
+    height: 100%;
+    width: 90%;
+    background: rgb(240,240,240);
+    margin-top: 30%;
+    padding: 5%;
+    padding-bottom: 20%;
+    border-radius: 20px;
+
+  }
+
+  input[type=submit]  {
+    width: 100%;
+    background-color: #11939a;
+    color: white;
+    padding: 5% 5%;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center; 
+  }
+
+  
+
+}
+
+@media only screen and (min-width: 500px) and (orientation: landscape) { /*mobile view*/
+
+
+}
+
+@media only screen and (min-width: 700px) and (orientation: portrait) { /*desktop view*/
+
+}
+
+@media only screen and (min-width: 800px) and (orientation: landscape) { /*desktop view*/
+  .formBox{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    background: rgb(240,240,240);
+    margin-top: 5%;
+    padding: 5%; 
+
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #11939a;
+    color: white;
+    padding: 5% 5%;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center; 
+  }
+  
+}
+
+
+div {
+  font-family:"Georgia", serif, cursive;
+  font-size: 110%;
+}
+
+div > p > a > i {
+  color: #11939a;
+}
+
+input:focus {
+  background-color: #eafcfc; /* css psuedo class 4 */
+}
+
+input[type=submit]:hover { /* 5th Psuedo class */
+  background-color: #45a049;
+}
+
+
+input[class=delete] {
+  width: 100%;
+  background-color: #991A00;
+  color: white;
+  padding: 5% 5%;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center; 
+}
+
+input[class=update] {
+  width: 100%;
+  background-color: #2196f3;
+  color: white;
+  padding: 5% 5%;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center; 
+}
